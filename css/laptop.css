@@ -1,0 +1,353 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+  padding: 30px 50px;
+}
+
+.icon {
+  color: rgb(24, 156, 219);
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.section-title {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.vertical-line {
+  border-left: 2px solid #d6c08d;
+  margin: 0 40px;
+}
+
+.horizon-line {
+  border-top: 2px solid #d6c08d;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.horizon-line-custom {
+  display: none;
+}
+
+/* Banner */
+#banner {
+  position: relative;
+  width: 100%;
+}
+
+.banner-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("/images/banner.jpg");
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: #f7f7f7;
+}
+
+.banner-info h1 {
+  font-size: 52px;
+}
+
+/* Nav bar */
+#nav-bar {
+  text-align: center;
+}
+
+#nav-bar a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+/* #nav-bar .avatar {
+    border: 10px solid #f7f7f7;
+    border-radius: 50%;
+    width: 200px;
+    margin: -110px 100px 0 100px;
+    z-index: 1;
+  } */
+
+/* About  */
+#about p {
+  line-height: 2;
+}
+
+#target p {
+  text-align: justify;
+}
+
+#target {
+  width: 50%;
+}
+
+#personal-info {
+  width: 50%;
+  white-space: nowrap;
+  padding-left: 10%;
+}
+
+#personal-info p {
+  line-height: 2;
+}
+
+#social-network {
+  margin-top: 20px;
+}
+
+/* Job info */
+#job-info .flex,
+.info-title {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#job-info .info-title {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+#job-info .container-items {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 60px;
+  align-items: stretch;
+}
+
+.infomation {
+  display: flex;
+  gap: 20px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(24, 156, 219);
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 3%;
+  flex-shrink: 0;
+}
+
+/* .info-title {
+    width: 30%;
+  } */
+
+.info-title h1 {
+  width: 75%;
+  white-space: nowrap;
+}
+
+.info-title div {
+  width: 25%;
+}
+
+.info-title i {
+  font-size: 50px;
+  color: #bdc4c7;
+}
+
+#job-info .border {
+  border: 0.5px solid #dcdcdc;
+  padding: 30px;
+  width: 100%;
+}
+
+/* Experience */
+#job-info .time {
+  padding: 10px 0;
+}
+
+.infomation p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.infomation {
+  margin-bottom: 28px;
+}
+
+/* Hobby */
+.hobby {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hobby-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  white-space: nowrap;
+}
+
+.hobby-icon {
+  margin-bottom: 20px;
+  border: 2px solid rgb(24, 156, 219);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(24, 156, 219);
+}
+
+.hobby-item p {
+  font-size: 14px;
+}
+
+/* Languague, tech skill */
+
+.progress span {
+  background: #199cdb;
+  display: inline-block;
+  height: 3px;
+  margin-right: 10px;
+  width: 60px;
+}
+
+/* Certificate */
+#certificate .container-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.certificate-item h6,
+p {
+  margin: 0 !important;
+}
+
+.certificate-item {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.certificate-item img {
+  width: 200px;
+}
+
+.certificate-item h6 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.certificate-item h6,
+p {
+  line-height: 1.8;
+}
+
+/* Project */
+#project .container-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-item {
+  width: 100%;
+}
+
+.project-item img {
+  width: 100%;
+}
+
+.project-item h5 {
+  text-transform: uppercase;
+  margin: 20px 0px 20px 0px;
+}
+
+.time-place-position {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+#project .time {
+  color: #fff;
+  background-color: #189cdb;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 10px;
+}
+
+.project-details {
+  margin-top: 20px;
+  line-height: 2;
+  border-collapse: collapse;
+}
+
+.project-details tr {
+  border-top: 1px solid #dcdcdc;
+}
+
+.project-details tr td {
+  padding: 5px 0;
+}
+
+.project-details tr td:first-child {
+  width: 30%;
+}
+
+.project-details tr td {
+  vertical-align: top;
+}
+
+/* Footer */
+#footer {
+  margin-bottom: 20px;
+}
+
+#footer .container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+#footer .container a i {
+  font-size: 200%;
+}
+
+#footer .container a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+@media only screen and (min-width: 992px) {
+  /* Lý lịch  */
+  #personal-info {
+    padding-left: 25%;
+  }
+}
