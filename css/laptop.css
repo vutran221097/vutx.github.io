@@ -82,6 +82,7 @@ section > .container {
   text-transform: uppercase;
   text-decoration: none;
   color: black;
+  height: fit-content;
 }
 
 /* #nav-bar .avatar {
@@ -308,7 +309,7 @@ p {
 }
 
 .project-details tr {
-  border-top: 1px solid #dcdcdc;
+  border-top: 1px solid #E1E1E1;
 }
 
 .project-details tr td {
