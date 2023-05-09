@@ -33,17 +33,9 @@
     border: none;
   }
 
-  #nav-bar .avatar{
-    display: none;
-  }
-
   #nav-bar a{
     border: none !important;
     padding: 5px 20px;
-  }
-
-  #nav-bar .avatar-placeholder{
-    display: none;
   }
 
   /* Lý lịch  */

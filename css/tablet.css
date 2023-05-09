@@ -9,6 +9,13 @@
     font-size: 26px;
   }
 
+  #nav-bar .avatar{
+    display: none;
+  }
+  #nav-bar .avatar-placeholder{
+    display: none;
+  }
+
   /* Lý lịch  */
   #job-info .container {
     gap: 20px;
