@@ -372,7 +372,7 @@ p {
 .project-details {
   line-height: 2;
   border-collapse: collapse;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .project-item h5{
@@ -383,6 +383,10 @@ p {
 
 .project-details tr {
   border: 1px solid #d0d0d0;
+}
+
+.project-details tr td:first-child{
+  vertical-align: text-top;
 }
 
 .project-details td {
