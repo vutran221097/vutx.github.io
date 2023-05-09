@@ -28,6 +28,7 @@
     display: none;
   }
 
+  /* Navbar */
   #nav-bar .container{
     margin-top: 20px;
     border: none;
@@ -50,6 +51,20 @@
   }
   #personal-info {
     padding-left: 0;
+  }
+
+  .target-container{
+    width: 100vw;
+    height: 50%;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .personal-info-container{
+    width: 100vw;
+    height: 50%;
+    bottom: 0;
+    z-index: -1;
   }
 
   /* Dự án */

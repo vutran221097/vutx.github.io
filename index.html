@@ -33,7 +33,7 @@
         class="container d-flex flex-column align-items-start flex-sm-row gap-3 justify-content-sm-center align-items-sm-center gap-sm-0"
       >
         <a href="#about"><i class="icon-user icon"></i>Thông tin</a>
-        <a href="#job-info" class="border-right"><i class="icon-doc-text-inv icon"></i>Lý lịch</a>
+        <a href="#job-info" class="border-right border-hidden"><i class="icon-doc-text-inv icon"></i>Lý lịch</a>
         <img class="avatar" src="./images/default-avatar.png" alt="avatar" />
         <div class="avatar-placeholder" style="width: 200px;margin:0 30px;"></div>
         <a href="#certificate"> <i class="icon-mail-alt icon"></i>Chứng chỉ</a>
@@ -42,37 +42,39 @@
     </section>
 
     <!-- About  -->
-    <section id="about" class="bg-grey">
-      <div class="container d-flex flex-column flex-sm-row">
-        <div id="target">
-          <h1 class="section-title">Mục tiêu nghề nghiệp</h1>
-          <p>
-            Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
-            của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
-            <b>Fullstack Developer</b>, có thể vận dụng những kiến thức đã được
-            trau dồi và không ngừng học hỏi để phát triển bản thân, cũng như
-            hoàn thành tốt nhất công việc được giao.
-          </p>
-        </div>
-        <div id="personal-info">
-          <h1 class="section-title">Thông tin cá nhân</h1>
-          <div class="info">
-            <p><b>Giới tính:</b> Nam</p>
-            <p><b>Ngày sinh:</b> 22/10/1997</p>
-            <p><b>Điện thoại:</b> (+84) 987216425</p>
-            <p><b>Email:</b> vutxfx23138@funix.edu.vn</p>
-            <p><b>Địa chỉ:</b> Thanh Xuân, Hà Nội</p>
-            <p><b>Website:</b> https://abc.tech</p>
+    <section id="about">
+      <div class="target-container"></div>
+      <div class="personal-info-container"></div>
+        <div class="container d-flex flex-column flex-sm-row mt-4 mt-sm-2">
+          <div id="target" class="bg-grey-target py-4 pe-5">
+            <h1 class="section-title">Mục tiêu nghề nghiệp</h1>
+            <p>
+              Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
+              của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
+              <b>Fullstack Developer</b>, có thể vận dụng những kiến thức đã được
+              trau dồi và không ngừng học hỏi để phát triển bản thân, cũng như
+              hoàn thành tốt nhất công việc được giao.
+            </p>
           </div>
-          <div id="social-network">
-            <a href="#"><i class="icon-twitter icon"></i></a>
-            <a href="https://www.facebook.com/amemea97/" target="_blank"
-              ><i class="icon-facebook icon"></i
-            ></a>
-            <a href="#"><i class="icon-gplus icon"></i></a>
-            <a href="#"><i class="icon-linkedin icon"></i></a>
+          <div id="personal-info" class="bg-grey-personal py-4 px-0 px-sm-5 mt-5 mt-sm-0">
+            <h1 class="section-title">Thông tin cá nhân</h1>
+            <div class="info">
+              <p><b>Giới tính:</b> Nam</p>
+              <p><b>Ngày sinh:</b> 22/10/1997</p>
+              <p><b>Điện thoại:</b> (+84) 987216425</p>
+              <p><b>Email:</b> vutxfx23138@funix.edu.vn</p>
+              <p><b>Địa chỉ:</b> Thanh Xuân, Hà Nội</p>
+              <p><b>Website:</b> https://abc.tech</p>
+            </div>
+            <div id="social-network">
+              <a href="#"><i class="icon-twitter icon"></i></a>
+              <a href="https://www.facebook.com/amemea97/" target="_blank"
+                ><i class="icon-facebook icon"></i
+              ></a>
+              <a href="#"><i class="icon-gplus icon"></i></a>
+              <a href="#"><i class="icon-linkedin icon"></i></a>
+            </div>
           </div>
-        </div>
       </div>
     </section>
 
@@ -172,7 +174,7 @@
             </div>
             <div>
               <p>Tiếng Anh - TOEIC 620</p>
-              <div class="progress rounded-0">
+              <div class="progress rounded-0 bg-white">
                 <div class="blue-bar"></div>
                 <div class="blue-bar"></div>
                 <div class="grey-bar"></div>
@@ -186,7 +188,7 @@
             </div>
             <div>
               <p>HTML/CSS/JS/ReactJs: Intermediate</p>
-              <div class="progress rounded-0">
+              <div class="progress rounded-0 bg-white">
                 <div class="blue-bar"></div>
                 <div class="blue-bar"></div>
                 <div class="grey-bar"></div>
@@ -194,7 +196,7 @@
             </div>
             <div>
               <p>Type Script/SCSS: Fundamental</p>
-              <div class="progress rounded-0">
+              <div class="progress rounded-0 bg-white">
                 <div class="blue-bar"></div>
                 <div class="grey-bar"></div>
                 <div class="grey-bar"></div>
@@ -202,7 +204,7 @@
             </div>
             <div>
               <p> React Native: Fundamental</p>
-              <div class="progress rounded-0">
+              <div class="progress rounded-0 bg-white">
                 <div class="blue-bar"></div>
                 <div class="grey-bar"></div>
                 <div class="grey-bar"></div>
@@ -211,7 +213,7 @@
             <div>     
             <div>
               <p>Vue Js/NodeJS: Fundamental</p>
-              <div class="progress rounded-0">
+              <div class="progress rounded-0 bg-white">
                 <div class="blue-bar"></div>
                 <div class="grey-bar"></div>
                 <div class="grey-bar"></div>
@@ -219,7 +221,7 @@
             </div>
             <div>
               <p>SQL Server/MongoDB: Fundamental</p>
-              <div class="progress rounded-0">
+              <div class="progress rounded-0 bg-white">
                 <div class="blue-bar"></div>
                 <div class="grey-bar"></div>
                 <div class="grey-bar"></div>
@@ -255,7 +257,7 @@
           </div>
         </div>
         <div class="horizon-line"></div>
-        <div class="container-item">
+        <div class="container-item certificate-custom-container">
           <div class="certificate-item last-item d-flex flex-column align-items-start flex-lg-row align-items-lg-center">
             <img src="./images/Cert_PRF.png" src="cert web" />
             <div>

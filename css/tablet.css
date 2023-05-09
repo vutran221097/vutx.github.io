@@ -9,10 +9,15 @@
     font-size: 26px;
   }
 
-  #nav-bar .avatar{
+  /* Navbar */
+  .border-hidden {
+    border-right: none !important;
+  }
+
+  #nav-bar .avatar {
     display: none;
   }
-  #nav-bar .avatar-placeholder{
+  #nav-bar .avatar-placeholder {
     display: none;
   }
 
@@ -35,6 +40,11 @@
     padding-right: 80px;
   }
 
+  /* Chứng chỉ  */
+  .certificate-item img {
+    width: 100%;
+  }
+
   /* Dự án  */
   .project-item {
     margin-bottom: 45px;
@@ -42,10 +52,6 @@
 
   .time-place-position {
     align-items: start;
-  }
-
-  .project-item img {
-    width: 175px;
   }
 }
 
@@ -68,14 +74,15 @@
     gap: 10px;
   }
 
-  /* Chứng chỉ  */
-  .certificate-item img {
-    width: 100%;
-  }
-
+  /* Chứng chỉ */
   .certificate-item.last-item {
     width: 50% !important;
     padding-right: 40px;
+  }
+
+  .certificate-custom-container{
+    padding-right: 0;
+    width: 100%;
   }
 
   /* Footer */
