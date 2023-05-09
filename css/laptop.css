@@ -229,11 +229,18 @@ section > .container {
 /* Languague, tech skill */
 
 .progress span {
-  background: #199cdb;
   display: inline-block;
   height: 3px;
   margin-right: 10px;
   width: 60px;
+}
+
+.blue-bar{
+  background: #199cdb;
+}
+
+.grey-bar{
+  background: #DCDCDC;
 }
 
 /* Certificate */
