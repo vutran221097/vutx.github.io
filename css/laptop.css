@@ -132,7 +132,7 @@ section > .container {
 .target-container{
   position: absolute;
   background-color: #F5F5F5;
-  width: 50vw;
+  width: 50%;
   height: 100%;
   left: 0;
   z-index: -1;
@@ -141,7 +141,7 @@ section > .container {
 .personal-info-container{
   position: absolute;
   background-color: #F0F0F0;
-  width: 50vw;
+  width: 50%;
   height: 100%;
   right: 0;
   z-index: -1;
